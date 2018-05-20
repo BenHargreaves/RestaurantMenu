@@ -9,7 +9,11 @@ Flask template engine test
 
 ## Installation and first time running
 - Make sure all dependencies are installed.
-- run lotsofmenus.py to establish sqlite DB
+- run database_setup to establish SQLite DB
+```
+python database_setup.py
+```
+- run lotsofmenus.py to populate restaurant DB with sample data
 ```
 python lotsofmenus.py
 ```
